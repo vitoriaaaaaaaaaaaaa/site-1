@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.title {
+    background-color: red;
+    color: beige;
+    padding: 10px;
+}
+
+form {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    display: flex;
+}
+
+form input#pesquisa {
+    padding: 5px;
+    border: none;
+    outline: none;
+    flex: 1;
+
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+div.lista {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+div.item{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+div.item:hover{
+    background-color: rgb(228, 136, 136);
+    cursor: pointer;
+}
+
+div.item img {
+    width: 300px;
+
+}
+
+
+
+
+
+
